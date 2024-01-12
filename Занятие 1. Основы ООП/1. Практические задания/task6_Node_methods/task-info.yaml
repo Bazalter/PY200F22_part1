@@ -4,56 +4,56 @@ files:
     visible: true
     placeholders:
       - offset: 371
-        length: 29
+        length: 70
         placeholder_text: "...  # TODO добавить атрибуты"
         initial_state:
           length: 29
           offset: 371
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: "...  # TODO добавить атрибуты"
-      - offset: 506
-        length: 33
+      - offset: 547
+        length: 17
         placeholder_text: "...  # TODO вернуть значение узла"
         initial_state:
           length: 33
           offset: 506
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: "...  # TODO вернуть значение узла"
-      - offset: 545
-        length: 30
+      - offset: 570
+        length: 148
         placeholder_text: '# TODO добавить метод get_next'
         initial_state:
           length: 30
           offset: 545
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO добавить метод get_next'
-      - offset: 691
-        length: 57
+      - offset: 884
+        length: 29
         placeholder_text: '# TODO с помощью метода распечатать значение первого узла'
         initial_state:
           length: 57
           offset: 691
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO с помощью метода распечатать значение первого
       узла'
-      - offset: 753
-        length: 64
+      - offset: 918
+        length: 29
         placeholder_text: '# TODO  с помощью метода распечатать следующий узел второго
       узла'
         initial_state:
           length: 64
           offset: 753
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: '# TODO  с помощью метода распечатать следующий узел
       второго узла'
     text: |
@@ -94,5 +94,8 @@ files:
       1
       None
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 12 Jan 2024 17:02:48 UTC"
 record: -1
