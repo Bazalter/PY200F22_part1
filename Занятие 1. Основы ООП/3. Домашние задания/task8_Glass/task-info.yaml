@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 47
+    length: 1784
     placeholder_text: '# TODO Добавить методы add_water и remove_water'
     dependency:
       section: Основы ООП
@@ -17,14 +17,16 @@ files:
       length: 47
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO Добавить методы add_water и remove_water'
   text: '# TODO Добавить методы add_water и remove_water'
   learner_created: false
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: "Sun, 14 Jan 2024 13:37:47 UTC"
 record: -1
 post_submission_on_open: true
