@@ -19,7 +19,7 @@ class Node:
         return f"Node({self.value}, {None})" if self.next is None else f"Node({self.value}, Node({self.next}))"
 
     def __str__(self) -> str:
-        return f"{self.value}, {self.next}" # TODO метод должен возвращать значение текущего узла
+        return f"Node({self.value}, {self.next})" # TODO метод должен возвращать значение текущего узла
 
     def is_valid(self, node: Any) -> None:
         if not isinstance(node, (type(None), Node)):
@@ -48,4 +48,4 @@ if __name__ == "__main__":
     linked_nodes(list_nodes[0], list_nodes[1])
     linked_nodes(list_nodes[1], list_nodes[2])
 
-    print(list_nodes)
+    print(linked_nodes(list_nodes[1], list_nodes[2]))

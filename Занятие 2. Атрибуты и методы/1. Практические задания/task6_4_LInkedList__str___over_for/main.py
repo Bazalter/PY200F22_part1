@@ -55,7 +55,7 @@ class LinkedList:
         return node.value
 
     def __str__(self) -> str:
-        return str(self.list_nodes)  # TODO заменить на list comprehension
+        return f'{[node for node in self]}'  # TODO заменить на list comprehension
 
 
 if __name__ == '__main__':

@@ -26,7 +26,8 @@ class TriangleCalculator:
 
 if __name__ == '__main__':
     TriangleCalculator().area()  # Работаем через экземпляр
-    TriangleCalculator().area_by_height(5, 10)  # Работаем через экземпляр
+    a = TriangleCalculator().area_by_height(5, 10)  # Работаем через экземпляр
+
 
     TriangleCalculator.area()  # Работаем через класс
     TriangleCalculator.area_by_height(5, 10)  # Работаем через класс
