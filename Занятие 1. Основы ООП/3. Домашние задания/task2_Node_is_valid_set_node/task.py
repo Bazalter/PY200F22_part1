@@ -24,7 +24,7 @@ class Node:
             raise ValueError("Некорректный тип данных")
 
     def set_next(self, next_: Optional["Node"] = None) -> None:
-        # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
+        # TODO метод должен проверять корректность узла и устанавливать значение атрибуту __next
         self.is_valid(next_)
         self.next = next_
 

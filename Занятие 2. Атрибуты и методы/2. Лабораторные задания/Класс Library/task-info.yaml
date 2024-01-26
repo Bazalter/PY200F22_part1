@@ -28,7 +28,7 @@ files:
           offset: 188
         initialized_from_dependency: false
         selected: true
-        status: Failed
+        status: Solved
         encrypted_possible_answer: |-
           class Book:
               ...
@@ -40,7 +40,7 @@ files:
           offset: 217
         initialized_from_dependency: false
         selected: false
-        status: Failed
+        status: Solved
         encrypted_possible_answer: |-
           class Library:
               ...
@@ -77,16 +77,8 @@ files:
       
           print(library_with_books.get_index_by_book_id(1))  # проверяем индекс книги с id = 1
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Fri, 19 Jan 2024 17:57:51 UTC"
-  expected: |
-    1
-    3
-    0
-  actual: |
-    1
-    1
-    0
+  message: Congratulations!
+  time: "Fri, 26 Jan 2024 17:26:31 UTC"
 record: -1

@@ -62,7 +62,7 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: '# TODO инициализируйте два узла с любыми значеними'
-      - offset: 927
+      - offset: 929
         length: 36
         placeholder_text: '# TODO свяжите первый узел со вторым'
         initial_state:
