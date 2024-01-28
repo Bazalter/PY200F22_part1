@@ -45,7 +45,9 @@ if __name__ == "__main__":
     print(list_nodes)
 
     # TODO реализуйте алгоритм, который свяжет между собой узлы в списке
-    linked_nodes(list_nodes[0], list_nodes[1])
-    linked_nodes(list_nodes[1], list_nodes[2])
+    for i in range(len(list_nodes) - 1):
+        right_nodes = list_nodes[i + 1]
+        left_nodes = list_nodes[i]
+        a = linked_nodes(left_nodes, right_nodes)
 
-    print(linked_nodes(list_nodes[1], list_nodes[2]))
+    print(a)

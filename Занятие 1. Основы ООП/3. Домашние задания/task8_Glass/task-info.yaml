@@ -1,32 +1,32 @@
 type: theory
 files:
-  - name: task.py
-    visible: true
-    placeholders:
-      - offset: 0
-        length: 47
-        placeholder_text: '# TODO Добавить методы add_water и remove_water'
-        dependency:
-          section: Основы ООП
-          lesson: 2. 2. Лабораторные задания
-          task: task7
-          file: task.py
-          placeholder: 1
-          is_visible: true
-        initial_state:
-          length: 47
-          offset: 0
-        initialized_from_dependency: false
-        selected: false
-        status: Solved
-        encrypted_possible_answer: '# TODO Добавить методы add_water и remove_water'
-    text: '# TODO Добавить методы add_water и remove_water'
-    learner_created: false
-  - name: __init__.py
-    visible: false
-    learner_created: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 1784
+    placeholder_text: '# TODO Добавить методы add_water и remove_water'
+    dependency:
+      section: Основы ООП
+      lesson: 2. 2. Лабораторные задания
+      task: task7
+      file: task.py
+      placeholder: 1
+      is_visible: true
+    initial_state:
+      length: 47
+      offset: 0
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: '# TODO Добавить методы add_water и remove_water'
+  text: '# TODO Добавить методы add_water и remove_water'
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
-  time: "Fri, 19 Jan 2024 14:54:06 UTC"
+  time: "Sun, 14 Jan 2024 13:37:47 UTC"
 record: -1
 post_submission_on_open: true

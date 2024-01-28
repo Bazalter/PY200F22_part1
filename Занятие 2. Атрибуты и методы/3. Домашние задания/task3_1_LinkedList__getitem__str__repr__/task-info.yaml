@@ -4,57 +4,57 @@ files:
   visible: true
   placeholders:
   - offset: 1391
-    length: 36
+    length: 45
     placeholder_text: "...  # TODO подставьте нужную ошибку"
     initial_state:
-      length: 36
+      length: 45
       offset: 1391
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: "...  # TODO подставьте нужную ошибку"
-  - offset: 1692
-    length: 6
+  - offset: 1701
+    length: 81
     placeholder_text: '# TODO'
     initial_state:
-      length: 6
-      offset: 1692
+      length: 81
+      offset: 1701
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: '# TODO'
-  - offset: 1739
-    length: 63
+  - offset: 1815
+    length: 93
     placeholder_text: "...  # TODO Метод to_list реализовать через list comprehension."
     initial_state:
-      length: 63
-      offset: 1739
+      length: 93
+      offset: 1815
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: "...  # TODO Метод to_list реализовать через list comprehension."
-  - offset: 1843
-    length: 61
+  - offset: 1949
+    length: 111
     placeholder_text: "...  # TODO c помощью метода to_list реализовать данный мет\
       од"
     initial_state:
-      length: 61
-      offset: 1843
+      length: 111
+      offset: 1949
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: "...  # TODO c помощью метода to_list реализовать д\
       анный метод"
-  - offset: 1944
-    length: 61
+  - offset: 2100
+    length: 82
     placeholder_text: "...  # TODO c помощью метода to_list реализовать данный мет\
       од"
     initial_state:
-      length: 61
-      offset: 1944
+      length: 82
+      offset: 2100
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: "...  # TODO c помощью метода to_list реализовать д\
       анный метод"
   text: |
@@ -179,5 +179,14 @@ files:
             self.is_valid(next_)
             self.next = next_
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Sun, 21 Jan 2024 13:15:49 UTC"
+  expected: |
+    [1, 2, 3]
+    LinkedList([1, 2, 3])
+  actual: |
+    <bound method LinkedList.to_list of LinkedList([0, 1, 2])>
+    LinkedList([0, 1, 2])
 record: -1

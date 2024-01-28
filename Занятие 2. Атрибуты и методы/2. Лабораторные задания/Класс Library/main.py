@@ -35,9 +35,11 @@ class Library:
     def get_next_book_id(self):
         if self.books == []:
             self.id_ = 1
+            return self.id_
         else:
-            self.id_ = len(self.books) + 1
-        return self.id_
+
+            self.id_ += 1
+            return self.id_
 
     def get_index_by_book_id(self, index):
         if index > self.len:
