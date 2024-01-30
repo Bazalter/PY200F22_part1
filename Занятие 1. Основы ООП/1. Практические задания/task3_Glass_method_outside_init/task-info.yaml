@@ -13,7 +13,7 @@ files:
                   raise ValueError
               self.capacity_volume = capacity_volume  # объем стакана
     initial_state:
-      length: 240
+      length: 94
       offset: 144
     initialized_from_dependency: false
     selected: true
@@ -30,8 +30,8 @@ files:
     placeholder_text: "#  TODO создать метод, который будет инициализировать атриб\
       ут capacity_volume"
     initial_state:
-      length: 77
-      offset: 609
+      length: 267
+      offset: 480
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -41,8 +41,8 @@ files:
     length: 72
     placeholder_text: "...  # TODO инициализировать экземпляр класса Glass"
     initial_state:
-      length: 51
-      offset: 720
+      length: 72
+      offset: 781
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -51,8 +51,8 @@ files:
     length: 24
     placeholder_text: "...)  # TODO распечатать атрибут capacity_volume"
     initial_state:
-      length: 48
-      offset: 782
+      length: 24
+      offset: 864
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -61,8 +61,8 @@ files:
     length: 24
     placeholder_text: "...)  # TODO распечатать атрибут occupied_volume"
     initial_state:
-      length: 48
-      offset: 841
+      length: 24
+      offset: 899
     initialized_from_dependency: false
     selected: true
     status: Solved

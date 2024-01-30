@@ -7,7 +7,7 @@ files:
     length: 394
     placeholder_text: '# TODO class Date'
     initial_state:
-      length: 17
+      length: 394
       offset: 0
     initialized_from_dependency: false
     selected: true

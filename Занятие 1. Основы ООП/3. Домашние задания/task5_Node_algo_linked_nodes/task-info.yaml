@@ -4,26 +4,26 @@ files:
   visible: true
   placeholders:
   - offset: 628
-    length: 64
+    length: 106
     placeholder_text: "...  # TODO метод должен возвращать значение текущего узла"
     initial_state:
       length: 64
       offset: 628
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: "...  # TODO метод должен возвращать значение текущ\
       его узла"
-  - offset: 1331
-    length: 68
+  - offset: 1373
+    length: 259
     placeholder_text: "# TODO реализуйте алгоритм, который свяжет между собой узлы\
       \ в списке"
     initial_state:
       length: 68
       offset: 1331
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: "# TODO реализуйте алгоритм, который свяжет между с\
       обой узлы в списке"
   text: |
@@ -86,5 +86,15 @@ files:
     [Node(0, None), Node(1, None), Node(2, None), Node(3, None), Node(4, None)]
     [Node(0, Node(1)), Node(1, Node(2)), Node(2, Node(3)), Node(3, Node(4)), Node(4, None)]
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Sun, 28 Jan 2024 14:27:12 UTC"
+  expected: |
+    [Node(0, None), Node(1, None), Node(2, None), Node(3, None), Node(4, None)]
+    [Node(0, Node(1)), Node(1, Node(2)), Node(2, Node(3)), Node(3, Node(4)), Node(4, None)]
+  actual: |
+    [Node(0, None), Node(1, None), Node(2, None), Node(3, None), Node(4, None)]
+    (Node(Node(4,Node(None)), None), Node(Node(3,Node(None)), None))
+    [Node(0, None), Node(1, None), Node(2, None), Node(3, None), Node(4, None)]
 record: -1

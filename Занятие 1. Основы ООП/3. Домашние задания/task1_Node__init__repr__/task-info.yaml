@@ -9,7 +9,7 @@ files:
       # TODO  инициализировать атрибуты экземпляра класса Node
               ...
     initial_state:
-      length: 68
+      length: 46
       offset: 371
     initialized_from_dependency: false
     selected: true
@@ -21,8 +21,8 @@ files:
     length: 70
     placeholder_text: '# TODO реализовать метод __repr__ для отображения экземпляра'
     initial_state:
-      length: 60
-      offset: 445
+      length: 70
+      offset: 423
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -32,8 +32,8 @@ files:
     length: 0
     placeholder_text: "...  # TODO инициализировать первый узел"
     initial_state:
-      length: 40
-      offset: 552
+      length: 0
+      offset: 574
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -42,8 +42,8 @@ files:
     length: 0
     placeholder_text: "...  # TODO инициализировать второй узел"
     initial_state:
-      length: 40
-      offset: 612
+      length: 0
+      offset: 575
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -53,8 +53,8 @@ files:
     placeholder_text: "...  # TODO через атрибут экземпляра устанавливаем первому\
       \ узлу следующий узел"
     initial_state:
-      length: 78
-      offset: 675
+      length: 11
+      offset: 599
     initialized_from_dependency: false
     selected: true
     status: Solved
