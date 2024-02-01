@@ -70,7 +70,10 @@ class LinkedList:
         return f"{self.to_list()}"
 
     def __add__(self, other: "LinkedList") -> "LinkedList":
-        ...  # TODO реализовать конкатенацию последовательностей
+        if not isinstance(other, LinkedList):  # TODO реализовать конкатенацию последовательностей
+            raise ArithmeticError()
+        list_other = other.to_list()
+        return LinkedList(self.to_list() + list_other)
 
 
 if __name__ == "__main__":
