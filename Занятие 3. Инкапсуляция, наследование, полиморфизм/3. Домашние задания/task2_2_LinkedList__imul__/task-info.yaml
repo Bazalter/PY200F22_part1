@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 3214
-    length: 61
+    length: 281
     placeholder_text: "...  # TODO определить одновременное умножение и присваиван\
       ие"
     initial_state:
       length: 61
       offset: 3214
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "...  # TODO определить одновременное умножение и п\
       рисваивание"
   text: |+
@@ -185,5 +185,8 @@ files:
             self.is_valid(next_)
             self._next = next_
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 01 Feb 2024 13:53:15 UTC"
 record: -1

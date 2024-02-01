@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 2428
-    length: 60
+    length: 244
     placeholder_text: "... # TODO реализовать метод клонирования последовательност\
       и"
     initial_state:
       length: 60
       offset: 2428
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "... # TODO реализовать метод клонирования последов\
       ательности"
   text: |
@@ -155,5 +155,8 @@ files:
             self.is_valid(next_)
             self._next = next_
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 01 Feb 2024 13:47:51 UTC"
 record: -1

@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 2878
-    length: 47
+    length: 84
     placeholder_text: "...  # TODO определить правостороннее умножение"
     initial_state:
       length: 47
       offset: 2878
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "...  # TODO определить правостороннее умножение"
   text: |+
     from typing import Any, Iterable, Optional
@@ -171,5 +171,8 @@ files:
             self.is_valid(next_)
             self._next = next_
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 01 Feb 2024 15:06:59 UTC"
 record: -1

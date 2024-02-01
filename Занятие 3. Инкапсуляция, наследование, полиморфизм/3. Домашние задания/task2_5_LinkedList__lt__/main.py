@@ -4,7 +4,18 @@ from functools import total_ordering
 from node import Node
 
 
+def new_method(class_to_decorate):
+    class DecoratedClass(class_to_decorate):
+
+        def __le__(self, other):
+            new_list = []
+            for i in other:
+                new_list.append(i)
+            return self.to_list() < new_list
+    return DecoratedClass
+
 # TODO задекорировать класс
+@new_method
 class LinkedList:
     def __init__(self, data: Iterable = None):
         """Конструктор связного списка"""
@@ -88,11 +99,15 @@ class LinkedList:
         return True
 
     # TODO определить метод __lt__
-
+    def __lt__(self, other):
+        new_list = []
+        for i in other:
+            new_list.append(i)
+        return self.to_list() < new_list
 
 if __name__ == "__main__":
     ll_1 = LinkedList(range(5))
-    ll_2 = LinkedList(range(5))
+    ll_2 = LinkedList(range(6))
 
     print(ll_1 >= ll_2)
     print(ll_1 <= ll_2)

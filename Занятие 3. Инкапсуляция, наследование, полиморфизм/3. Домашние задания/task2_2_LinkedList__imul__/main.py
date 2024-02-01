@@ -108,7 +108,14 @@ class LinkedList:
         return LinkedList(other * self.to_list())
 
     def __imul__(self, other: int) -> "LinkedList":
-        ...  # TODO определить одновременное умножение и присваивание
+        # count = 0
+        # new_list = []
+        # while count < other:
+        #     for value in self:
+        #         new_list.append(value)
+        #     count += 1
+        # return new_list
+        return LinkedList(self.to_list() * other)  # почему срабатывает умножение списка?
 
 
 if __name__ == "__main__":
