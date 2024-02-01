@@ -115,7 +115,6 @@ class LinkedList:
             new_node.next = prev_node.next
             prev_node.next = new_node
 
-
         self.len += 1
 
 
